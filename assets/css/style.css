@@ -14,7 +14,6 @@ body {
     font-weight: 700;
     color: #111827;
     line-height: 1.2;
-    margin-bottom: 1rem;
     align-items: center;
     text-align: center;
 
@@ -34,7 +33,6 @@ body {
 }
 .hero-section {
     background-color: white;
-    height: 100vh;          /* full screen */
     display: flex;
     align-items: center;
     justify-content: center;

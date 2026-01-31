@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&display=swap');
+
 html {
     background-color: #f6f6f6;
 }
@@ -6,6 +8,7 @@ body {
     font-family: "EB Garamond", "Helvetica Neue", "Segoe UI", sans-serif;
     margin: 0;
     font-weight: 300;
+    font-size: 23px;
 }
 
 .hero-text h1 {

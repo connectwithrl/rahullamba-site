@@ -22,10 +22,7 @@ body {
 .hero-text p {
     grid-column: 1 / -1;
     text-align: center;
-    font-size: 1.75rem;
     color: #4b5563;
-    margin-bottom: 2rem;
-
 }
 
 .hero-text h2 {

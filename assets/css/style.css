@@ -1,11 +1,10 @@
-* {
+html {
     background-color: #f6f6f6;
 }
 
 body {
-    font-family: sans-serif;
+    font-family: "EB Garamond", "Helvetica Neue", "Segoe UI", sans-serif;
     margin: 0;
-    color: black;
     font-weight: 300;
 }
 
@@ -26,5 +25,24 @@ body {
     font-size: 1.75rem;
     color: #4b5563;
     margin-bottom: 2rem;
+
+}
+
+.hero-text h2 {
+    margin: 1.25rem;
+    align-content: center;
+    text-align: center;
+    font-style: italic;
+
+}
+.hero-section {
+    background-color: white;
+    height: 100vh;          /* full screen */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 1rem;
+    max-width: 70%;
 
 }

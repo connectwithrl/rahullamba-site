@@ -1,4 +1,5 @@
 ---
-title: "Projects Details"
-layout: "projects/single"
+title: "Projects"
 ---
+
+Welcome to my projects page.

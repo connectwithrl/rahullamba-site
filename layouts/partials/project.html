@@ -1,0 +1,23 @@
+{{ $projects := where .Site.RegularPages "Section" "projects" }}
+
+<div class="projects">
+  {{ range $projects }}
+    <div class="project-card">
+      <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+
+      {{ with .Params.description }}
+        <p>{{ . }}</p>
+      {{ end }}
+
+      {{ with .Params.image }}
+        <img src="{{ . }}" alt="{{ $.Title }}" />
+      {{ end }}
+
+      <div class="project-content">
+        {{ .Summary }}
+      </div>
+
+      <a href="{{ .RelPermalink }}">Read More →</a>
+    </div>
+  {{ end }}
+</div>

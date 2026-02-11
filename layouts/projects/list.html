@@ -1,3 +1,7 @@
 {{ define "main" }}
-  {{ partial "body.html" . }}
+
+<h1>{{ .Title }}</h1>
+
+{{ partial "project.html" . }}
+
 {{ end }}

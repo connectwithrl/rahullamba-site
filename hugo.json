@@ -1,5 +1,9 @@
 {
    "baseURL": "https://rahullamba.com/",
    "languageCode": "en-us",
-   "title": "Rahul Lamba"
+   "title": "Rahul Lamba",
+   "taxonomies": {
+    "tag": "tags",
+    "category": "categories"
+  }
 }

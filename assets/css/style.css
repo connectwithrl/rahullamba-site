@@ -85,7 +85,8 @@ a {
         justify-content: space-between;
         flex-direction: column;
         border-bottom: 1px solid #ccc;
-        padding-bottom: 1rem;
+        padding: 0 1rem 1rem 0;
+
     }
 
     .header .nav {

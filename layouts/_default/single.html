@@ -1,7 +1,27 @@
 {{ define "main" }}
-<article>
-    <div>
-        {{ .Content }}
+<main>
+  <article>
+    <a class="back-link" href="{{ .Parent.Permalink }}">← {{ .Parent.Title }}</a>
+
+    <h1 class="article-title">{{ .Title }}</h1>
+
+    <div class="article-meta">
+      {{ with .Params.description }}<span class="article-desc">{{ . }}</span>{{ end }}
+      <div class="article-meta-links">
+        {{ with .Params.github }}<a href="{{ . }}" target="_blank" rel="noopener">GitHub ↗</a>{{ end }}
+        {{ with .Params.status }}<span class="status-badge">{{ . }}</span>{{ end }}
+      </div>
     </div>
-</article>
+
+    {{ if .Params.tags }}
+    <div class="tag-list">
+      {{ range .Params.tags }}<span class="tag">{{ . }}</span>{{ end }}
+    </div>
+    {{ end }}
+
+    <div class="article-body">
+      {{ .Content }}
+    </div>
+  </article>
+</main>
 {{ end }}

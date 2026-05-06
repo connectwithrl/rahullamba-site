@@ -1,0 +1,26 @@
+{{ define "main" }}
+<main>
+  <div class="page-header">
+    <div class="section-label">{{ .Title }}</div>
+  </div>
+
+  {{ if .Pages }}
+  <div class="project-list">
+    {{ range .Pages }}
+    <a class="project-item" href="{{ .Permalink }}">
+      <div class="project-item-meta">
+        {{ if .Date }}<span class="project-date">{{ .Date.Format "2006" }}</span>{{ end }}
+      </div>
+      <div class="project-item-body">
+        <div class="project-item-title">{{ .Title }}</div>
+        {{ with .Params.description }}<div class="project-item-desc">{{ . }}</div>{{ end }}
+      </div>
+      <svg class="project-item-arrow" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+    </a>
+    {{ end }}
+  </div>
+  {{ else }}
+  <p class="empty-state">Nothing here yet.</p>
+  {{ end }}
+</main>
+{{ end }}

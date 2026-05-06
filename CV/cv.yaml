@@ -1,0 +1,227 @@
+/btw name: Rahul Lamba
+headline: AI Platform Engineer | Agentic AI Systems | AWS CDK & Bedrock | Kubernetes | MLOps
+location: "Abu Dhabi, UAE"
+email: connectwithrl@gmail.com
+phone:
+  - "+971-503884328"
+personal_site: ""
+github: "https://github.com/connectwithrl"
+linkedin: "https://www.linkedin.com/in/connectwithrl/"
+
+summary: |
+  AI Platform Engineer with 15+ years of experience in cloud infrastructure, DevOps, and scalable system design. Currently leading the AI Platform Engineering initiative at Liquidity Capital — building an agent-driven infrastructure platform that uses LLMs to eliminate manual infrastructure friction across the engineering organization.
+
+  Shipped a Python-based Discovery Agent that inventoried 9,798 AWS resources across 181 resource types, surfacing ~$4,700/month in immediate savings and up to $60,000/year in identified waste. Engineered 22 production-ready L3 CDK constructs with hardened security baselines, enforced by 8 CDK Hardening Aspects and AWS SCPs. Currently designing and building Maestro — a multi-agent AI platform (Pydantic AI + FastAPI + AWS Bedrock on EKS) with specialized sub-agents for infrastructure intelligence, build investigation, and IaC generation.
+
+  Experienced in designing cloud-native architectures on Kubernetes (EKS), building MCP servers, and integrating LLM-powered agents into enterprise engineering workflows.
+
+work_experience:
+  - title: Senior Platform Engineer
+    company: Liquidity Capital
+    location: Abu Dhabi, UAE
+    start_date: Feb/2023
+    end_date: Present
+    details:
+      - Led the AI Platform Engineering initiative to build an agent-driven infrastructure platform, eliminating manual provisioning friction and accelerating financial product delivery velocity.
+      - Built a Python Discovery Agent (async boto3 + STS AssumeRole) that scanned 4 AWS environments, inventoried 9,798 resources across 181 types, and identified ~$4,700/month in idle Lambda provisioned concurrency waste and up to $60,000/year in additional savings.
+      - Engineered 22 production-ready L3 CDK constructs (Python) with hardened security baselines — encryption hardcoded, mandatory tags, instance allowlists — and 8 CDK Hardening Aspects enforcing compliance at synth time across all stacks.
+      - Designed a 3-layer IaC security enforcement model — L3 constructs (structural compliance), CDK Aspects (synth-time validation), and AWS SCPs (API-level guardrails).
+      - Used Claude AI (Anthropic) to analyse infrastructure inventory patterns, propose L3 constructs from live AWS state, and draft production CDK code reviewed and approved by engineers.
+      - Designing and building Maestro — a multi-agent AI platform (Pydantic AI + FastAPI gateway on EKS, AWS Bedrock Claude Sonnet) with specialized sub-agents for infrastructure intelligence, build investigation, and IaC generation.
+      - Built Platform MCP Server exposing AWS, GitHub, Jira, TeamCity, and Bedrock APIs as Claude tools, enabling semi-automated agentic investigation workflows for the engineering team.
+      - Designed Authentication & Authorization architecture for the agent platform using Amazon Cognito + OpenFGA (Zanzibar-style relationship model) with RBAC across C-level, engineer, and platform roles.
+      - Leading evaluation and planning for CI/CD migration from TeamCity to GitHub Actions + ArgoCD for Kubernetes deployments.
+      - Architected multi-account AWS access model using IRSA and STS AssumeRole with per-agent IAM role boundaries, ensuring zero-credential exposure across the agent mesh.
+      - Designed cloud-native architecture on Amazon EKS using Helm, ensuring SOC2-compliant deployments.
+    tech_stack:
+      - AWS CDK (Python)
+      - AWS Bedrock (Claude Sonnet)
+      - Pydantic AI
+      - FastAPI
+      - MCP (Model Context Protocol)
+      - Amazon EKS
+      - Helm
+      - IRSA
+      - PostgreSQL (RDS)
+      - GitHub Actions
+      - ArgoCD
+      - OpenFGA
+      - Amazon Cognito
+      - Python
+      - Terraform
+
+  - title: DevOps Engineer
+    company: Beamtrail
+    location: Abu Dhabi, UAE
+    start_date: Sep/2021
+    end_date: Feb/2023
+    details:
+      - Automated end-to-end development lifecycle for complex hardware-integrated systems.
+      - Designed and implemented fully automated CI/CD pipelines.
+      - Improved release consistency through semantic versioning automation.
+      - Optimized build and deployment workflows for scalability and reliability.
+    tech_stack:
+      - Jenkins
+      - GitLab CI
+      - Docker
+      - Kubernetes
+      - Conan
+      - Python
+      - Bash
+
+  - title: Engineering Manager - DevOps
+    company: One97 Communications (Paytm)
+    location: Noida, India
+    start_date: Feb/2021
+    end_date: Sep/2021
+    details:
+      - Designed CI/CD pipelines for critical services, reducing manual deployment efforts.
+      - Led Kubernetes (EKS) adoption and Helm-based deployment standardization.
+      - Improved infrastructure cost efficiency through performance tuning and right-sizing.
+      - Designed disaster recovery architecture for high-availability systems.
+    tech_stack:
+      - Kubernetes
+      - Helm
+      - EKS
+      - Jenkins
+      - GitLab CI
+      - Docker
+      - Terraform
+
+  - title: Lead DevOps Engineer
+    company: "Xebia IT Architects (Client: Digital14 / KATIM)"
+    location: Abu Dhabi, UAE
+    start_date: Sep/2018
+    end_date: Feb/2021
+    details:
+      - Managed secure PKI-based applications across on-prem and Azure environments.
+      - Automated infrastructure provisioning using Terraform and configuration management using Ansible.
+      - Streamlined CI/CD pipelines for secure and scalable deployments.
+    tech_stack:
+      - Azure
+      - Jenkins
+      - Ansible
+      - Terraform
+      - PKI
+
+  - title: Senior Web Developer
+    company: Optum | United Health Group
+    location: Noida, India
+    start_date: Mar/2016
+    end_date: Sep/2018
+    details:
+      - Developed and maintained enterprise web applications using Adobe Experience Manager (AEM).
+      - Implemented CI/CD pipelines and containerization strategies for improved deployment efficiency.
+    tech_stack:
+      - Adobe Experience Manager
+      - Jenkins
+      - Docker
+      - Java
+
+  - title: Senior Application Engineer
+    company: Interra Systems
+    location: Noida, India
+    start_date: Dec/2014
+    end_date: Feb/2016
+    details:
+      - Built integrations using REST, SOAP, and XML-RPC APIs.
+      - Automated workflows and improved system interoperability.
+    tech_stack:
+      - Java
+      - XML
+      - REST APIs
+      - SOAP
+
+  - title: Technical Consultant - AEM
+    company: Adobe
+    location: Noida, India
+    start_date: Sep/2014
+    end_date: Dec/2014
+    details:
+      - Provided RCA and resolved production issues for enterprise clients.
+      - Improved system stability through proactive patching and architecture improvements.
+    tech_stack:
+      - Adobe Experience Manager
+      - Java
+      - CMS
+
+  - title: Senior Systems Engineer
+    company: Infosys Technologies
+    location: Pune, India
+    start_date: Sep/2011
+    end_date: Apr/2014
+    details:
+      - Developed enterprise CMS solutions and supported large-scale deployments.
+      - Participated in system design, development, and migration projects.
+    tech_stack:
+      - Java
+      - J2EE
+      - XML
+      - Servlets
+      - Oracle SQL
+
+education:
+  - institution: Dehradun Institute of Technology
+    location: Dehradun, India
+    degree: Bachelor of Technology (Information Technology)
+    start_date: Sep/2007
+    end_date: Sep/2011
+
+technical_skills:
+  ai_genai:
+    - Multi-Agent Systems (Pydantic AI)
+    - AWS Bedrock (Claude Sonnet)
+    - Claude API (Anthropic)
+    - MCP (Model Context Protocol)
+    - AWS CDK IaC Generation
+    - LLM Deployment & Orchestration
+    - Prompt Engineering
+    - MLOps & AI Infrastructure
+
+  cloud_devops:
+    - AWS
+    - Azure
+    - AWS CDK (Python)
+    - Terraform
+    - Kubernetes
+    - Docker
+    - Helm
+
+  cicd:
+    - GitHub Actions
+    - ArgoCD
+    - Jenkins
+    - GitLab CI
+    - TeamCity
+
+  monitoring:
+    - Datadog
+    - Groundcover
+    - Prometheus
+    - Grafana
+    - ELK Stack
+    - OpenTelemetry
+
+  programming:
+    - Python
+    - FastAPI
+    - SQLAlchemy
+    - Java
+    - SQL
+    - Bash
+
+certifications:
+  - Certified Kubernetes Administrator
+  - Certified Kubernetes Developer
+  - AWS Cloud Practitioner
+  - AWS Solutions Architect Associate
+
+soft_skills:
+  - Leadership
+  - Problem Solving
+  - Collaboration
+  - Communication
+
+languages:
+  - English
+  - Hindi

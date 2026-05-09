@@ -3,7 +3,7 @@ title: "algovest.online"
 date: 2026-05-09
 description: "AI-powered algorithmic trading research platform."
 github: "https://github.com/algovest-research/TradingAgents"
-url: "https://algovest.online"
+website: "https://algovest.online"
 tags: ["python", "next.js", "react", "llm", "trading"]
 status: "active"
 ---

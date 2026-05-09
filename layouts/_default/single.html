@@ -9,7 +9,7 @@
       {{ with .Params.description }}<span class="article-desc">{{ . }}</span>{{ end }}
       <div class="article-meta-links">
         {{ with .Params.github }}<a href="{{ . }}" target="_blank" rel="noopener">GitHub ↗</a>{{ end }}
-        {{ with .Params.url }}<a href="{{ . }}" target="_blank" rel="noopener">Live site ↗</a>{{ end }}
+        {{ with .Params.website }}<a href="{{ . }}" target="_blank" rel="noopener">Live site ↗</a>{{ end }}
         {{ with .Params.status }}<span class="status-badge">{{ . }}</span>{{ end }}
       </div>
     </div>

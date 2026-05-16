@@ -76,26 +76,38 @@
     institution: edu_item.institution,
     location: edu_item.location,
     degree: edu_item.degree,
-    dates: text(font: "Liberation Serif")[#dates-helper(start-date: edu_item.start_date, end-date: edu_item.end_date)],
+    dates: dates-helper(start-date: edu_item.start_date, end-date: edu_item.end_date),
   )
-  #for detail in edu_item.details [
-    - #detail
+  #if "details" in edu_item [
+    #for detail in edu_item.details [
+      - #detail
+    ]
   ]
 ]
 
 == Skills & Languages
 
+#let skills = cv.technical_skills
+
 #grid(
   columns: (1fr, 1fr),
   gutter: 1em,
   [
-    *Programming Languages*\
-    Advanced: #cv.programming_languages.advanced.join(", ")\
-    Intermediate: #cv.programming_languages.intermediate.join(", ")
+    *Technical Skills*\
+    AI/GenAI: #skills.ai_genai.join(", ")\
+    Cloud/DevOps: #skills.cloud_devops.join(", ")\
+    CI/CD: #skills.cicd.join(", ")\
+    Monitoring: #skills.monitoring.join(", ")
   ],
   [
+    *Programming*\
+    #skills.programming.join(", ")\
+
+    *Certifications*\
+    #cv.certifications.join(", ")\
+
     *Languages*\
-    #cv.languages.join(", ")
+    #cv.languages.join(", ")\
 
     *Soft Skills*\
     #cv.soft_skills.join(", ")

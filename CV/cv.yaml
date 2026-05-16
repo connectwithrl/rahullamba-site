@@ -1,6 +1,6 @@
-/btw name: Rahul Lamba
-headline: AI Platform Engineer | Agentic AI Systems | AWS CDK & Bedrock | Kubernetes | MLOps
-location: "Abu Dhabi, UAE"
+name: Rahul Lamba
+headline: Applied AI Architect | LLM Solutions & Pre-Sales | Multi-Agent Systems | AWS Bedrock & MCP | Kubernetes
+location: "Abu Dhabi, UAE (open to relocation to Mumbai)"
 email: connectwithrl@gmail.com
 phone:
   - "+971-503884328"
@@ -9,33 +9,35 @@ github: "https://github.com/connectwithrl"
 linkedin: "https://www.linkedin.com/in/connectwithrl/"
 
 summary: |
-  AI Platform Engineer with 15+ years of experience in cloud infrastructure, DevOps, and scalable system design. Currently leading the AI Platform Engineering initiative at Liquidity Capital — building an agent-driven infrastructure platform that uses LLMs to eliminate manual infrastructure friction across the engineering organization.
+  Applied AI Architect with 15+ years of experience spanning cloud infrastructure, DevOps, and enterprise AI platform engineering. Currently leading the AI Platform Engineering initiative at Liquidity Capital — architecting and delivering an agent-driven platform that uses LLMs to eliminate manual infrastructure friction and accelerate engineering velocity across the organization.
 
-  Shipped a Python-based Discovery Agent that inventoried 9,798 AWS resources across 181 resource types, surfacing ~$4,700/month in immediate savings and up to $60,000/year in identified waste. Engineered 22 production-ready L3 CDK constructs with hardened security baselines, enforced by 8 CDK Hardening Aspects and AWS SCPs. Currently designing and building Maestro — a multi-agent AI platform (Pydantic AI + FastAPI + AWS Bedrock on EKS) with specialized sub-agents for infrastructure intelligence, build investigation, and IaC generation.
+  Presented a cost-savings analysis to leadership identifying ~$4,700/month in immediate waste and up to $60,000/year in additional savings, securing executive buy-in for the AI platform initiative. Built a Python-based Discovery Agent that inventoried 9,798 AWS resources across 181 resource types to power those insights. Designed and built Maestro — a multi-agent AI platform (Pydantic AI + FastAPI + AWS Bedrock Claude Sonnet on EKS) — and a Platform MCP Server exposing AWS, GitHub, Jira, and Bedrock as Claude tools, enabling agentic workflows across the engineering organization.
 
-  Experienced in designing cloud-native architectures on Kubernetes (EKS), building MCP servers, and integrating LLM-powered agents into enterprise engineering workflows.
+  Experienced in translating complex AI and infrastructure concepts for both engineering teams and executive stakeholders, designing scalable cloud-native architectures, and integrating LLM-powered agents into enterprise workflows. Background includes enterprise client-facing work across India and the UAE, with hands-on experience navigating multi-stakeholder environments at organizations including Infosys, Paytm, and Adobe.
 
 work_experience:
-  - title: Senior Platform Engineer
+  - title: Senior Platform Engineer (AI Platform Lead)
     company: Liquidity Capital
     location: Abu Dhabi, UAE
     start_date: Feb/2023
     end_date: Present
     details:
-      - Led the AI Platform Engineering initiative to build an agent-driven infrastructure platform, eliminating manual provisioning friction and accelerating financial product delivery velocity.
-      - Built a Python Discovery Agent (async boto3 + STS AssumeRole) that scanned 4 AWS environments, inventoried 9,798 resources across 181 types, and identified ~$4,700/month in idle Lambda provisioned concurrency waste and up to $60,000/year in additional savings.
+      - Led the AI Platform Engineering initiative, architecting an agent-driven infrastructure platform; presented cost-savings analysis to leadership identifying ~$4,700/month in immediate savings and up to $60,000/year in waste, securing executive sponsorship for the programme.
+      - Built a Python Discovery Agent (async boto3 + STS AssumeRole) that scanned 4 AWS environments, inventoried 9,798 resources across 181 types, and produced the evidence base for infrastructure investment decisions presented to C-level stakeholders.
+      - Designed and built Maestro — a multi-agent AI platform (Pydantic AI + FastAPI gateway on EKS, AWS Bedrock Claude Sonnet) — with specialized sub-agents for infrastructure intelligence, build investigation, and IaC generation; evaluated LiteLLM as an AI Gateway layer for provider-agnostic routing, per-agent cost tracking, and guardrails; defined evaluation criteria to measure agent accuracy and reliability before production rollout.
+      - Built Platform MCP Server exposing AWS, GitHub, Jira, TeamCity, and Bedrock APIs as Claude tools, enabling semi-automated agentic investigation workflows; onboarded engineering teams and gathered feedback to iterate on agent behaviour.
+      - Used Claude AI (Anthropic) to analyse infrastructure inventory patterns, propose L3 constructs from live AWS state, and draft production CDK code reviewed and approved by engineers — demonstrating Claude integration patterns now being adopted across the platform.
       - Engineered 22 production-ready L3 CDK constructs (Python) with hardened security baselines — encryption hardcoded, mandatory tags, instance allowlists — and 8 CDK Hardening Aspects enforcing compliance at synth time across all stacks.
       - Designed a 3-layer IaC security enforcement model — L3 constructs (structural compliance), CDK Aspects (synth-time validation), and AWS SCPs (API-level guardrails).
-      - Used Claude AI (Anthropic) to analyse infrastructure inventory patterns, propose L3 constructs from live AWS state, and draft production CDK code reviewed and approved by engineers.
-      - Designing and building Maestro — a multi-agent AI platform (Pydantic AI + FastAPI gateway on EKS, AWS Bedrock Claude Sonnet) with specialized sub-agents for infrastructure intelligence, build investigation, and IaC generation.
-      - Built Platform MCP Server exposing AWS, GitHub, Jira, TeamCity, and Bedrock APIs as Claude tools, enabling semi-automated agentic investigation workflows for the engineering team.
       - Designed Authentication & Authorization architecture for the agent platform using Amazon Cognito + OpenFGA (Zanzibar-style relationship model) with RBAC across C-level, engineer, and platform roles.
-      - Leading evaluation and planning for CI/CD migration from TeamCity to GitHub Actions + ArgoCD for Kubernetes deployments.
       - Architected multi-account AWS access model using IRSA and STS AssumeRole with per-agent IAM role boundaries, ensuring zero-credential exposure across the agent mesh.
       - Designed cloud-native architecture on Amazon EKS using Helm, ensuring SOC2-compliant deployments.
+      - Leading evaluation and planning for CI/CD migration from TeamCity to GitHub Actions + ArgoCD for Kubernetes deployments.
     tech_stack:
       - AWS CDK (Python)
       - AWS Bedrock (Claude Sonnet)
+      - Claude API (Anthropic)
+      - LiteLLM (AI Gateway)
       - Pydantic AI
       - FastAPI
       - MCP (Model Context Protocol)
@@ -75,8 +77,9 @@ work_experience:
     start_date: Feb/2021
     end_date: Sep/2021
     details:
-      - Designed CI/CD pipelines for critical services, reducing manual deployment efforts.
-      - Led Kubernetes (EKS) adoption and Helm-based deployment standardization.
+      - Led DevOps engineering team at one of India's largest fintech platforms, navigating a complex multi-stakeholder environment across product, engineering, and infrastructure organizations.
+      - Designed CI/CD pipelines for critical services, reducing manual deployment efforts and improving release velocity for engineering teams across the organization.
+      - Led Kubernetes (EKS) adoption and Helm-based deployment standardization across multiple product teams.
       - Improved infrastructure cost efficiency through performance tuning and right-sizing.
       - Designed disaster recovery architecture for high-availability systems.
     tech_stack:
@@ -94,6 +97,7 @@ work_experience:
     start_date: Sep/2018
     end_date: Feb/2021
     details:
+      - Served as lead technical advisor for a strategic UAE government-aligned client, translating security and infrastructure requirements into actionable architecture decisions.
       - Managed secure PKI-based applications across on-prem and Azure environments.
       - Automated infrastructure provisioning using Terraform and configuration management using Ansible.
       - Streamlined CI/CD pipelines for secure and scalable deployments.
@@ -138,7 +142,7 @@ work_experience:
     start_date: Sep/2014
     end_date: Dec/2014
     details:
-      - Provided RCA and resolved production issues for enterprise clients.
+      - Provided root cause analysis and resolved production issues for enterprise clients, acting as the primary technical point of contact during critical incidents.
       - Improved system stability through proactive patching and architecture improvements.
     tech_stack:
       - Adobe Experience Manager
@@ -151,8 +155,8 @@ work_experience:
     start_date: Sep/2011
     end_date: Apr/2014
     details:
-      - Developed enterprise CMS solutions and supported large-scale deployments.
-      - Participated in system design, development, and migration projects.
+      - Developed enterprise CMS solutions and supported large-scale deployments for enterprise clients across India.
+      - Participated in system design, development, and migration projects within a large cross-functional delivery organization.
     tech_stack:
       - Java
       - J2EE
@@ -172,9 +176,11 @@ technical_skills:
     - Multi-Agent Systems (Pydantic AI)
     - AWS Bedrock (Claude Sonnet)
     - Claude API (Anthropic)
+    - LiteLLM (AI Gateway)
     - MCP (Model Context Protocol)
-    - AWS CDK IaC Generation
+    - LLM Evaluation & Evals Design
     - LLM Deployment & Orchestration
+    - AWS CDK IaC Generation
     - Prompt Engineering
     - MLOps & AI Infrastructure
 
@@ -217,10 +223,12 @@ certifications:
   - AWS Solutions Architect Associate
 
 soft_skills:
+  - Executive Communication
+  - Technical Storytelling
+  - Stakeholder Management
   - Leadership
   - Problem Solving
   - Collaboration
-  - Communication
 
 languages:
   - English

@@ -1,17 +1,17 @@
 name: Rahul Lamba
-headline: Applied AI Architect | LLM Solutions & Pre-Sales | Multi-Agent Systems | AWS Bedrock & MCP | Kubernetes
+headline: Applied AI Platform Engineer | LLM Serving & RAG | Multi-Agent Systems & MCP | AWS Bedrock | Kubernetes
 location: "Abu Dhabi, UAE (open to relocation to Mumbai)"
 email: connectwithrl@gmail.com
 phone:
-  - "+971-503884328"
+  - "+971 547826389"
 personal_site: ""
 github: "https://github.com/connectwithrl"
 linkedin: "https://www.linkedin.com/in/connectwithrl/"
 
 summary: |
-  Applied AI Architect with 15+ years of experience spanning cloud infrastructure, DevOps, and enterprise AI platform engineering. Currently leading the AI Platform Engineering initiative at Liquidity Capital — architecting and delivering an agent-driven platform that uses LLMs to eliminate manual infrastructure friction and accelerate engineering velocity across the organization.
+  Applied AI Platform Engineer with 15+ years of experience spanning cloud infrastructure, DevOps, and enterprise AI platform engineering. Currently leading the AI Platform Engineering initiative at Liquidity Capital — architecting an agent-driven platform that uses LLMs to eliminate manual infrastructure friction and accelerate engineering velocity across the organization.
 
-  Presented a cost-savings analysis to leadership identifying ~$4,700/month in immediate waste and up to $60,000/year in additional savings, securing executive buy-in for the AI platform initiative. Built a Python-based Discovery Agent that inventoried 9,798 AWS resources across 181 resource types to power those insights. Designed and built Maestro — a multi-agent AI platform (Pydantic AI + FastAPI + AWS Bedrock Claude Sonnet on EKS) — and a Platform MCP Server exposing AWS, GitHub, Jira, and Bedrock as Claude tools, enabling agentic workflows across the engineering organization.
+  Presented a cost-savings analysis to leadership identifying ~$4,700/month in immediate waste and up to $60,000/year in additional savings, securing executive buy-in for the AI platform initiative. Built the platform foundation in production: a Python Discovery Agent that inventoried 9,798 AWS resources across 181 resource types, a Platform MCP Server exposing AWS, GitHub, Jira, and Bedrock as Claude tools, and a hardened CDK construct library that enforces security at synth time. On that foundation, architected Maestro — an agent-driven platform (Pydantic AI sub-agents + FastAPI gateway on EKS, AWS Bedrock Claude) — now being built out.
 
   Experienced in translating complex AI and infrastructure concepts for both engineering teams and executive stakeholders, designing scalable cloud-native architectures, and integrating LLM-powered agents into enterprise workflows. Background includes enterprise client-facing work across India and the UAE, with hands-on experience navigating multi-stakeholder environments at organizations including Infosys, Paytm, and Adobe.
 
@@ -24,10 +24,10 @@ work_experience:
     details:
       - Led the AI Platform Engineering initiative, architecting an agent-driven infrastructure platform; presented cost-savings analysis to leadership identifying ~$4,700/month in immediate savings and up to $60,000/year in waste, securing executive sponsorship for the programme.
       - Built a Python Discovery Agent (async boto3 + STS AssumeRole) that scanned 4 AWS environments, inventoried 9,798 resources across 181 types, and produced the evidence base for infrastructure investment decisions presented to C-level stakeholders.
-      - Designed and built Maestro — a multi-agent AI platform (Pydantic AI + FastAPI gateway on EKS, AWS Bedrock Claude Sonnet) — with specialized sub-agents for infrastructure intelligence, build investigation, and IaC generation; evaluated LiteLLM as an AI Gateway layer for provider-agnostic routing, per-agent cost tracking, and guardrails; defined evaluation criteria to measure agent accuracy and reliability before production rollout.
-      - Built Platform MCP Server exposing AWS, GitHub, Jira, TeamCity, and Bedrock APIs as Claude tools, enabling semi-automated agentic investigation workflows; onboarded engineering teams and gathered feedback to iterate on agent behaviour.
+      - Architected Maestro, an agent-driven platform — designed the multi-agent framework (Pydantic AI sub-agents for infrastructure intelligence, build investigation, and IaC generation), the FastAPI gateway on EKS (AWS Bedrock Claude), and the evaluation criteria for agent accuracy and reliability; evaluated LiteLLM as an AI Gateway layer for provider-agnostic routing, per-agent cost tracking, and guardrails. Built the production foundation it runs on (discovery, MCP, hardened IaC); the agent layer is in active build.
+      - Built Platform MCP Server exposing AWS, GitHub, Jira, TeamCity, and Bedrock APIs as Claude tools (~35 tools, with destructive-action deny-list, read-only mode, and per-tool usage tracking); onboarded engineering teams and gathered feedback to iterate on tool behaviour.
       - Used Claude AI (Anthropic) to analyse infrastructure inventory patterns, propose L3 constructs from live AWS state, and draft production CDK code reviewed and approved by engineers — demonstrating Claude integration patterns now being adopted across the platform.
-      - Engineered 22 production-ready L3 CDK constructs (Python) with hardened security baselines — encryption hardcoded, mandatory tags, instance allowlists — and 8 CDK Hardening Aspects enforcing compliance at synth time across all stacks.
+      - Engineered 23 production-ready L3 CDK constructs (Python) with hardened security baselines — encryption hardcoded, mandatory tags, instance allowlists — and 10 CDK Hardening Aspects enforcing compliance at synth time across all stacks.
       - Designed a 3-layer IaC security enforcement model — L3 constructs (structural compliance), CDK Aspects (synth-time validation), and AWS SCPs (API-level guardrails).
       - Designed Authentication & Authorization architecture for the agent platform using Amazon Cognito + OpenFGA (Zanzibar-style relationship model) with RBAC across C-level, engineer, and platform roles.
       - Architected multi-account AWS access model using IRSA and STS AssumeRole with per-agent IAM role boundaries, ensuring zero-credential exposure across the agent mesh.
@@ -174,6 +174,8 @@ education:
 technical_skills:
   ai_genai:
     - Multi-Agent Systems (Pydantic AI)
+    - RAG & Vector Search (pgvector)
+    - LLM Serving (vLLM / Bedrock)
     - AWS Bedrock (Claude Sonnet)
     - Claude API (Anthropic)
     - LiteLLM (AI Gateway)

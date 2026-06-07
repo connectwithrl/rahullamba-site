@@ -1,9 +1,9 @@
 ---
 title: "optix-ai"
 date: 2025-01-01
-description: "Open-source FinOps agent that makes your cloud spend smarter."
+description: "Open-source LLM FinOps agent that turns an AWS bill into a ranked action plan."
 github: "https://github.com/techtious/optix-ai"
-tags: ["python", "aws", "llm", "finops", "claude"]
+tags: ["python", "aws", "llm", "agent", "finops", "claude"]
 status: "active"
 ---
 

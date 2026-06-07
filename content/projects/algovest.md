@@ -1,10 +1,10 @@
 ---
 title: "algovest.online"
 date: 2026-05-09
-description: "AI-powered algorithmic trading research platform."
+description: "Multi-agent algorithmic trading research platform powered by LLMs."
 github: "https://github.com/algovest-research/TradingAgents"
 website: "https://algovest.online"
-tags: ["python", "next.js", "react", "llm", "trading"]
+tags: ["python", "next.js", "react", "llm", "multi-agent", "trading"]
 status: "active"
 ---
 

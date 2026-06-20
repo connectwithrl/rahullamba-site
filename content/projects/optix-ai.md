@@ -1,13 +1,13 @@
 ---
 title: "optix-ai"
 date: 2025-01-01
-description: "Open-source FinOps agent that makes your cloud spend smarter — multi-account AWS cost optimization with LLM-powered recommendations."
+description: "FinOps agent that makes your cloud spend smarter — multi-account AWS cost optimization with LLM-powered recommendations."
 github: "https://github.com/techtious/optix-ai"
 tags: ["python", "aws", "llm", "agent", "finops", "claude", "fastapi", "multi-account"]
 status: "active"
 ---
 
-optix-ai is an open-source FinOps agent that connects to AWS Cost Explorer and uses an LLM to generate prioritized, actionable cost optimization reports. It supports multi-account setups, tag-based resource governance, and exports polished HTML reports for client sharing. Point it at your AWS account and it tells you exactly where money is being wasted and what to do about it.
+optix-ai is a FinOps agent that connects to AWS Cost Explorer and uses an LLM to generate prioritized, actionable cost optimization reports. It supports multi-account setups, tag-based resource governance, and exports polished HTML reports for client sharing. Point it at your AWS account and it tells you exactly where money is being wasted and what to do about it.
 
 ## What it does
 
